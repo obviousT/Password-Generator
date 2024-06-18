@@ -105,4 +105,93 @@ input::placeholder{
 #numberSelect:focus {
     border-color: #00000000;
 }
-   
+@media only screen and (max-width: 800px) {
+    .container{
+        width: 340px;
+        height: 280px;
+        border: 1px solid black;
+        place-self: center;
+        margin-top: 10vh;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: #373A40;
+        box-shadow: 0px 5px 5px black;
+    }
+    #buttons{
+        display: flex;
+        gap: 2vw;
+       
+    }
+    .display input{
+      background-color: #EEEEEE;
+      border: 1px solid black;
+      border-radius: 6px;
+      width: 35vw;
+      height: 5vh;
+      box-shadow:0px 3px 3px black ;
+    }
+    
+    button{
+        background-color: #DC5F00;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 6vh;
+        width: 20vw;
+        font-size: 18px;
+        box-shadow: 0px 3px 3px black ;
+        font-weight: 500;
+        transition: transform 0.2s;
+        cursor: pointer;
+    }
+    
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .container{
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        place-self: center;
+        margin-top: 10vh;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: #373A40;
+        box-shadow: 0px 5px 5px black;
+    }
+    #buttons{
+        display: flex;
+        gap: 2vw;
+       
+    }
+    .display input{
+      background-color: #EEEEEE;
+      border: 1px solid black;
+      border-radius: 6px;
+      width: 35vw;
+      height: 5vh;
+      box-shadow:0px 3px 3px black ;
+    }
+    
+    button{
+        background-color: #DC5F00;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 6vh;
+        width: 20vw;
+        font-size: 25px;
+        box-shadow: 0px 3px 3px black ;
+        font-weight: 500;
+        transition: transform 0.2s;
+        cursor: pointer;
+    }
+}
+
